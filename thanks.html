@@ -50,25 +50,6 @@
 
 
 
-        .social_left span {
-            padding-top: 30px;
-            padding-right: 10px;
-            padding-bottom: 30px;
-            padding-left: 20px;
-        }
-
-        .social_links td {
-            padding-right: 0;
-            padding-left: 0;
-        }
-
-        .social_links a {
-            padding-top: 0;
-            padding-right: 0;
-            padding-bottom: 0;
-            padding-left: 0;
-        }
-
         @media (max-width: 620px) {
             .top_gutter {
                 height: 50px !important;
@@ -94,12 +75,83 @@
                 width: 400px !important;
             }
 
-            .social_wrapper {
+            .social_container_td {
+                width: 300px !important;
+            }
+
+            .social_text {
+                display: block !important;
+            }
+
+            .social_links {
+                display: block !important;
                 padding-bottom: 30px !important;
             }
 
-            .social_td {
-                width: 300px !important;
+            .bottom_contacts {
+                width: 262px !important;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .top_gutter {
+                height: 20px !important;
+            }
+
+            .bottom_gutter {
+                height: 20px !important;
+            }
+
+            .container {
+                width: 320px !important;
+            }
+
+            .intro img {
+                width: 320px !important;
+            }
+
+            .block-banner img {
+                width: 320px !important;
+            }
+
+            .social_table {
+                width: 320px !important;
+            }
+
+            .slogan span {
+                font-size: 14px !important;
+            }
+
+            .thanks span {
+                font-size: 20px !important;
+            }
+
+            .offer span {
+                font-size: 16px !important;
+                line-height: 24px !important;
+            }
+
+            .cta span {
+                font-size: 16px !important;
+                line-height: 24px !important;
+            }
+
+            .aphorism_td {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .aphorism_td span {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .bottom_logo img {
+                width: 60px !important;
+            }
+
+            .bottom_contacts {
+                width: 220px !important;
             }
         }
     </style>
@@ -116,8 +168,8 @@
                 <table class="container" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff">
                     <tr>
                         <td class="intro" style="padding-bottom: 12px;">
-                            <a href="#" bgcolor="#f5f1f1">
-                                <img src="./images/intro-banner.png" alt="banner" width="600" />
+                            <a href="#" traget="_blank" bgcolor="#f5f1f1">
+                                <img src="https://irrbis38.github.io/ugla-email/images/intro-banner.png" alt="banner" width="600" />
                             </a>
                         </td>
                     </tr>
@@ -130,7 +182,7 @@
                     </tr>
                     <tr>
                         <td align="center" class="decor" style="padding-bottom: 38px;">
-                            <img src="./images/red-decor.png" alt="decor" width="44" height="7">
+                            <img src="https://irrbis38.github.io/ugla-email/images/red-decor.png" alt="decor" width="44" height="7" />
                         </td>
                     </tr>
                     <tr>
@@ -139,7 +191,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td align="center" style="padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
+                        <td class="offer" align="center" style="padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
                             <span style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';color:#000;font-size:18px;line-height: 27px;">
                                 <span style="color: #9f9f9f;">Чтобы сделать ваши покупки еще более приятными,</span>
                                 <span style="color: #cb2032;">дарим скидку на первый заказ</span>
@@ -155,11 +207,11 @@
                     </tr>
                     <tr>
                         <td style="padding-bottom: 40px;">
-                            <a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:20px;color: #ffffff;text-decoration: none;">
+                            <a href="#" traget="_blank" style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:20px;color: #ffffff;text-decoration: none;">
                                 <table class="link" cellpadding="0" cellspacing="0" width="297" align="center" bgcolor="#cb2032" style="height: 63px;">
                                     <tr>
                                         <td align="center" style="padding-left: 50px;">
-                                            <img src="./images/link_icon.png" alt="icon" width="14">
+                                            <img src="https://irrbis38.github.io/ugla-email/images/link_icon.png" alt="icon" width="14" />
                                         </td>
                                         <td align="center" valign="middle" style="padding-right: 50px;">
                                             <span style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:20px;color: #ffffff;">перейти
@@ -174,13 +226,13 @@
                     </tr>
                     <tr>
                         <td style="padding-bottom: 22px;" class="block-banner">
-                            <img src="./images/block-banner.png" width="600" alt="" />
+                            <img src="https://irrbis38.github.io/ugla-email/images/block-banner.png" width="600" alt="" />
                         </td>
                     </tr>
                     <tr>
-                        <td align="center" style="padding-bottom: 15px;">
+                        <td class="aphorism_td" align="center" style="padding-bottom: 15px;">
                             <span
-                                style="padding-left: 20px;padding-right: 20px;font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:18px;font-style:italic;color: #000000;">“Разделяя
+                                style="padding-left: 20px;padding-right: 20px;font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:18px;font-style:italic;color: #000000;line-height: 27px;">“Разделяя
                                 счастье с другими, мы умножаем счастье.”</span>
                         </td>
                     </tr>
@@ -192,49 +244,71 @@
                         </td>
                     </tr>
                     <tr>
-                        <td align="center" class="social_td">
+                        <td align="center" class="social_container_td">
                             <table cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#cb2032" class="social_table">
                                 <tr>
-                                    <td class="social_wrapper">
-                                        <table class="social_left" cellpadding="0" cellspacing="0" width="300" align="center">
-                                            <tr>
-                                                <td>
-                                                    <span
-                                                        style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:14px;line-height: 21px;color: #ffffff;display: block;">Подпишитесь
-                                                        на наши социальные сети
-                                                        и обеспечьте себя непрерывным полезным и интересным контентом</span>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table class="social_links" cellpadding="0" cellspacing="0" width="300" align="center" valign="middle" bgcolor="#cb2032">
+                                    <td class="social_text" style="padding-top: 30px;padding-bottom: 30px;padding-right: 10px;padding-left: 20px;">
+                                        <span
+                                            style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:14px;line-height: 21px;color: #ffffff;display: block;">Подпишитесь
+                                            на наши социальные сети
+                                            и обеспечьте себя непрерывным полезным и интересным контентом</span>
+                                    </td>
+                                    <td class="social_links">
+                                        <table cellpadding="0" cellspacing="0" width="300" align="center" valign="middle" bgcolor="#cb2032">
                                             <tr>
                                                 <td align="center" style="padding-left: 10px;padding-right: 15px;">
-                                                    <a href="#" style="text-decoration: none" width="38">
-                                                        <img src="./images/yandex.png" alt="yandex" width="38">
+                                                    <a href="#" traget="_blank" style="text-decoration: none" width="38">
+                                                        <img src="https://irrbis38.github.io/ugla-email/images/yandex.png" alt="yandex" width="38" />
                                                     </a>
                                                 </td>
                                                 <td align="center" style="padding-right: 15px;">
-                                                    <a href="#" style="text-decoration: none" width="38">
-                                                        <img src="./images/instagram.png" alt="yandex" width="38">
+                                                    <a href="#" traget="_blank" style="text-decoration: none" width="38">
+                                                        <img src="https://irrbis38.github.io/ugla-email/images/instagram.png" alt="yandex" width="38" />
                                                     </a>
                                                 </td>
                                                 <td align="center" style="padding-right: 15px;">
-                                                    <a href="#" style="text-decoration: none" width="38">
-                                                        <img src="./images/vk.png" alt="yandex" width="38">
+                                                    <a href="#" traget="_blank" style="text-decoration: none" width="38">
+                                                        <img src="https://irrbis38.github.io/ugla-email/images/vk.png" alt="yandex" width="38" />
                                                     </a>
                                                 </td>
                                                 <td align="center" style="padding-right: 15px;">
-                                                    <a href="#" style="text-decoration: none" width="38">
-                                                        <img src="./images/telegram.png" alt="yandex" width="38">
+                                                    <a href="#" traget="_blank" style="text-decoration: none" width="38">
+                                                        <img src="https://irrbis38.github.io/ugla-email/images/telegram.png" alt="yandex" width="38" />
                                                     </a>
                                                 </td>
                                                 <td align="center" style="padding-right: 20px;">
-                                                    <a href="#" style="text-decoration: none" width="43">
-                                                        <img src="./images/youtube.png" alt="yandex" width="43">
+                                                    <a href="#" traget="_blank" style="text-decoration: none" width="43">
+                                                        <img src="https://irrbis38.github.io/ugla-email/images/youtube.png" alt="yandex" width="43" />
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bottom" style="padding-top: 20px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;">
+                            <table>
+                                <tr>
+                                    <td class="bottom_logo" align="left">
+                                        <a href="#" traget="_blank">
+                                            <img src="https://irrbis38.github.io/ugla-email/images/logo-footer.png" alt="logo" width="98" />
+                                        </a>
+                                    </td>
+                                    <td class="bottom_contacts" align="right" width="462">
+                                        <p
+                                            style="margin-top: 0;margin-bottom: 0;font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:12px;line-height: 18px;color: #000000;">
+                                            ул. Кожевенная, 54/1, помещение 58
+
+                                        </p>
+                                        <p style="margin-top: 0;margin-bottom: 0;">
+                                            <a href="tel:88007773194"
+                                                style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:12px;line-height: 18px;color: #cb2032;text-decoration: none;">8
+                                                800 777 31 94</a> / <a href="mailto:online@ugla.shop"
+                                                style="font-family: Arial, Helvetica, sans-serif, 'Trebuchet MS';font-size:12px;line-height: 18px;color: #cb2032;text-decoration: none;">online@ugla.shop</a>
+                                        </p>
                                     </td>
                                 </tr>
                             </table>
@@ -246,7 +320,8 @@
 
 
         <tr>
-            <td style="height: 113px;" class="bottom_gutter"></td>
+            <td style=" height: 113px;" class="bottom_gutter">
+            </td>
         </tr>
 
     </table>
